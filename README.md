@@ -32,8 +32,7 @@ Puoi verificare se hai già questi strumenti con i seguenti comandi:
 ```bash
 node -v
 npm -v
-
----
+```
 
 ## Installazione
 
