@@ -199,3 +199,13 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 1200px) {
+    .right-column {
+        display: none;
+    }
+
+    .left-column {
+        border-right: none;
+    }
+}
