@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+.container {
+  display: grid;
+  grid-template-columns: 610px 320px 240px;
+  /* Colonne con dimensioni specifiche */
+  gap: 16px;
+  /* Spazio tra le colonne */
+}
+
+.container>div {
+  background-color: #f4f4f4;
+  /* Colore di sfondo per evidenziare gli articoli */
+  border: 1px solid #ddd;
+}
+
+.container>div:first-child {
+  height: 620px;
+  /* Altezza specifica per la prima colonna */
+}

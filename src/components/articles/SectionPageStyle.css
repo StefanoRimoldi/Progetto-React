@@ -1,0 +1,44 @@
+.articles-container {
+    display: grid;
+    grid-template-columns: 610px 320px 110px;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    align-items: start;
+    font-family: "Domine", serif;
+}
+
+
+.container {
+    background-color: #f4f4f4;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+
+.container img {
+    width: auto;
+    height: 50%;
+    border-radius: 8px;
+}
+
+
+.container .byline {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 8px;
+    text-align: right;
+    font-family: "Domine", serif;
+}
+
+.container .date {
+    font-size: 12px;
+    font-weight: bold;
+    color: #888;
+}

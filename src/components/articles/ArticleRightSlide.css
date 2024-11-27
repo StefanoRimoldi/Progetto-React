@@ -1,0 +1,94 @@
+/* Contenitore principale per il carosello */
+.slideshow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* Contenitore per gli articoli */
+.slideshow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colonne per ogni riga */
+    gap: 20px;
+    /* Spazio tra le card */
+    width: 100%;
+    max-width: 1200px;
+    /* Imposta una larghezza massima se necessario */
+    margin: 0 auto;
+    /* Centra il contenuto */
+}
+
+/* Stile per ogni singola card */
+.slideshow-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.slideshow-item:hover {
+    transform: translateY(-5px);
+    /* Effetto hover per alzare la card */
+}
+
+/* Immagine all'interno della card */
+.slideshow-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    /* Assicura che l'immagine riempi la card senza distorsioni */
+}
+
+/* Titolo dell'articolo */
+.slideshow-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    line-height: 1.4;
+    height: 60px;
+    overflow: hidden;
+    /* Nasconde il testo troppo lungo */
+    text-overflow: ellipsis;
+    /* Aggiunge i puntini di sospensione per titoli lunghi */
+}
+
+/* Byline (Autore dell'articolo) */
+.slideshow-byline {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Controlli di navigazione (pulsanti) */
+.slideshow-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slideshow-prev,
+.slideshow-next {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.slideshow-prev:hover,
+.slideshow-next:hover {
+    background-color: #0056b3;
+}

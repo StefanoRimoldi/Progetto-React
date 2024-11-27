@@ -1,0 +1,109 @@
+/* Contenitore della slideshow */
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    /* Impostato su colonna per gestire i controlli sotto */
+    padding-top: 15px;
+    border-top: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+/* Slideshow stessa */
+.slideshow {
+    display: flex;
+    justify-content: space-between;
+    /* Spazio tra gli articoli */
+    width: 100%;
+}
+
+.slideshow-item {
+    width: 48%;
+    /* Ogni articolo occuperà metà della larghezza */
+    margin-right: 2%;
+    /* Spazio tra i due articoli */
+    text-align: center;
+    position: relative;
+    height: 220px;
+    /* Altezza fissa per ogni articolo */
+    display: flex;
+    flex-direction: column;
+}
+
+.slideshow-item-noimage {
+    width: 48%;
+    height: 110px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slideshow-item:not(:last-child) {
+    border-right: 2px solid #ddd;
+    padding-right: 10px;
+}
+
+.slideshow-item img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.slideshow-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.slideshow-text {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.slideshow-byline {
+    text-align: left;
+    font-size: 12px;
+
+}
+
+.slideshow-controls {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.slideshow-prev,
+.slideshow-next {
+    background-color: white (0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+}
+
+.slideshow-prev:hover,
+.slideshow-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
