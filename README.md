@@ -82,8 +82,7 @@ Per utilizzare l'applicazione, è necessario ottenere una chiave API da [qui](ht
 
 ## Link progetto:
 - Live Demo: 
-- Github Pages: 
-- Repo GitHub: 
+- Repo GitHub: https://github.com/StefanoRimoldi/Progetto-React
 
 
 ## Contatti
