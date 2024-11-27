@@ -81,7 +81,7 @@ Per utilizzare l'applicazione, è necessario ottenere una chiave API da [qui](ht
 - Visual Studio Code
 
 ## Link progetto:
-- Live Demo: 
+- Live Demo: https://stefanorimoldi-nytclone.netlify.app/
 - Repo GitHub: https://github.com/StefanoRimoldi/Progetto-React
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
