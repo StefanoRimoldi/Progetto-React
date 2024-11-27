@@ -19,7 +19,7 @@ Questo progetto rappresenta la conclusione del corso **Start2Impact** su **React
 - [Contatti](#contatti)
 
 ---
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Prerequisiti
 
 Prima di eseguire l'applicazione, assicurati di avere installati i seguenti strumenti:
@@ -33,7 +33,7 @@ Puoi verificare se hai già questi strumenti con i seguenti comandi:
 node -v
 npm -v
 ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Installazione
 
 ### Clonazione della Repository
@@ -43,7 +43,7 @@ Clona il repository sul tuo sistema locale:
 ```bash
 git clone https://github.com/tuo-utente/nyt-clone.git
 ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Installazione delle Dipendenze
 
 Accedi alla cartella del progetto e installa le dipendenze necessarie:
@@ -52,7 +52,7 @@ Accedi alla cartella del progetto e installa le dipendenze necessarie:
 cd nyt-clone
 npm install
 ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Avvio del Progetto
 
 Avvia il server di sviluppo:
@@ -60,7 +60,7 @@ Avvia il server di sviluppo:
 ```bash
 npm start
 ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Configurazione API
 
 Per utilizzare l'applicazione, è necessario ottenere una chiave API da [qui](https://developer.nytimes.com/get-started). Una volta ottenuta:
@@ -71,19 +71,19 @@ Per utilizzare l'applicazione, è necessario ottenere una chiave API da [qui](ht
    ```env
    REACT_APP_NYT_API_KEY=la-tua-chiave-api
    ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Tecnologie utilizzate:
 - React
 - Tailwind
 - Axios
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Realizzato con:
 - Visual Studio Code
 
 ## Link progetto:
 - Live Demo: 
 - Repo GitHub: https://github.com/StefanoRimoldi/Progetto-React
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contatti
 - Email: rimoldistefano@gmail.com
