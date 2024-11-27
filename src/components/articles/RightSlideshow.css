@@ -1,4 +1,4 @@
-/* Contenitore della slideshow */
+
 .slideshow-container {
     display: flex;
     justify-content: center;
@@ -7,29 +7,25 @@
     width: 100%;
     overflow: hidden;
     flex-direction: column;
-    /* Impostato su colonna per gestire i controlli sotto */
+
     padding-top: 15px;
     border-top: 1px solid gray;
     margin-bottom: 20px;
 }
 
-/* Slideshow stessa */
 .slideshow {
     display: flex;
     justify-content: space-between;
-    /* Spazio tra gli articoli */
+
     width: 100%;
 }
 
 .slideshow-item {
     width: 48%;
-    /* Ogni articolo occuperà metà della larghezza */
     margin-right: 2%;
-    /* Spazio tra i due articoli */
     text-align: center;
     position: relative;
     height: 220px;
-    /* Altezza fissa per ogni articolo */
     display: flex;
     flex-direction: column;
 }
