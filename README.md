@@ -73,9 +73,9 @@ Per utilizzare l'applicazione, è necessario ottenere una chiave API da [qui](ht
    ```
 
 ## Tecnologie utilizzate:
-- REACT
-- TAILWIND
-- AXIOS
+- React
+- Tailwind
+- Axios
 
 ## Realizzato con:
 - Visual Studio Code
