@@ -1,4 +1,3 @@
-/* Struttura base */
 
 .myfont {
     font-family: "Domine", serif;
@@ -125,10 +124,7 @@
 .divider {
     width: 100%;
     height: 1px;
-    /* Altezza della linea */
     background-color: #ccc;
-    /* Colore della linea (grigio chiaro) */
-    /* Distanza sopra e sotto la linea */
 }
 
 .right-column {
@@ -143,12 +139,12 @@
         margin-right: 20px;
     }
 
-    /* Nascondere la colonna destra */
+
     .right-column {
         display: none;
     }
 
-    /* Colonna sinistra prende tutta la larghezza */
+
     .left-column {
         width: 100%;
         padding-right: 0;
@@ -158,19 +154,19 @@
     }
 }
 
-/* Media Query per Mobile */
+
 @media (max-width: 480px) {
 
-    /* Articoli impilati: immagine sopra, testo sotto */
+
     .left-column .article:first-child,
     .left-column .half-width {
         display: flex;
         flex-direction: column;
-        /* Disposizione verticale */
+
         gap: 8px;
     }
 
-    /* Immagine sopra */
+
     .left-column .article:first-child img,
     .left-column .half-width img {
         max-width: 100%;
@@ -178,7 +174,7 @@
 
     }
 
-    /* Testo sotto */
+
     .left-column .article:first-child .text-content,
     .left-column .half-width .text-content {
         flex: none;
@@ -189,7 +185,6 @@
     .left-column .grid-four-titles {
         display: flex;
         flex-direction: column;
-        /* Colonna verticale */
         gap: 8px;
     }
 
