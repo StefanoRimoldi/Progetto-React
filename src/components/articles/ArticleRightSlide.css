@@ -1,4 +1,4 @@
-/* Contenitore principale per il carosello */
+
 .slideshow-container {
     display: flex;
     flex-direction: column;
@@ -8,21 +8,16 @@
     padding: 20px 0;
 }
 
-/* Contenitore per gli articoli */
+
 .slideshow {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* 4 colonne per ogni riga */
     gap: 20px;
-    /* Spazio tra le card */
     width: 100%;
     max-width: 1200px;
-    /* Imposta una larghezza massima se necessario */
     margin: 0 auto;
-    /* Centra il contenuto */
 }
 
-/* Stile per ogni singola card */
 .slideshow-item {
     background-color: #fff;
     border-radius: 8px;
@@ -35,19 +30,15 @@
 
 .slideshow-item:hover {
     transform: translateY(-5px);
-    /* Effetto hover per alzare la card */
 }
 
-/* Immagine all'interno della card */
 .slideshow-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
-    /* Assicura che l'immagine riempi la card senza distorsioni */
 }
 
-/* Titolo dell'articolo */
 .slideshow-title {
     font-size: 18px;
     font-weight: bold;
@@ -56,19 +47,17 @@
     line-height: 1.4;
     height: 60px;
     overflow: hidden;
-    /* Nasconde il testo troppo lungo */
     text-overflow: ellipsis;
-    /* Aggiunge i puntini di sospensione per titoli lunghi */
 }
 
-/* Byline (Autore dell'articolo) */
+
 .slideshow-byline {
     font-size: 14px;
     color: #888;
     margin-top: 5px;
 }
 
-/* Controlli di navigazione (pulsanti) */
+
 .slideshow-controls {
     display: flex;
     justify-content: space-between;
