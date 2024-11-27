@@ -33,7 +33,7 @@ Puoi verificare se hai già questi strumenti con i seguenti comandi:
 node -v
 npm -v
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Installazione
 
 ### Clonazione della Repository
