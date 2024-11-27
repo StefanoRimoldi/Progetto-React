@@ -59,7 +59,7 @@ Avvia il server di sviluppo:
 
 ```bash
 npm start
-      ```
+```
 
 ### Configurazione API
 
