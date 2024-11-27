@@ -168,13 +168,13 @@ const Footer = () => {
                     <li key={linkIndex} className="flex items-center space-x-2">
                       
                       {link.icon && <span>{link.icon}</span>}
-                      <a
-                        href="#"
+                      <Link
+                        to={link.path}
                         className="text-[12px] text-black hover:text-gray-800 transition-colors duration-300 block py-1 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 focus:ring-offset-white rounded"
                         onClick={() => handleLinkClick(link.path)}
                       >
                         {link.label}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
