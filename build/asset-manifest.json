@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.60dcfa33.css",
-    "main.js": "/static/js/main.99d95825.js",
-    "index.html": "/index.html",
-    "main.60dcfa33.css.map": "/static/css/main.60dcfa33.css.map",
-    "main.99d95825.js.map": "/static/js/main.99d95825.js.map"
+    "main.css": "/StefanoRimoldi/Progetto-React/static/css/main.60dcfa33.css",
+    "main.js": "/StefanoRimoldi/Progetto-React/static/js/main.99d95825.js",
+    "index.html": "/StefanoRimoldi/Progetto-React/index.html",
+    "main.60dcfa33.css.map": "/StefanoRimoldi/Progetto-React/static/css/main.60dcfa33.css.map",
+    "main.99d95825.js.map": "/StefanoRimoldi/Progetto-React/static/js/main.99d95825.js.map"
   },
   "entrypoints": [
     "static/css/main.60dcfa33.css",
